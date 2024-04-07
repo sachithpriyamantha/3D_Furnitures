@@ -1,0 +1,90 @@
+.root {
+    -fx-background-image: url('/resources/4K.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#dashboard-title {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #f4f8f8;
+    -fx-font-weight: bold;
+}
+.box-button {
+    -fx-background-radius: 15; /* Adjust the radius as needed for curvature */
+    -fx-border-radius: 15; /* Ensure the border radius matches the background radius */
+    -fx-padding: 10 20; /* Adjust padding as needed */
+    -fx-font-size: 14px; /* Example font size, adjust as needed */
+    -fx-background-color: #d7be1e; /* Example background color, adjust as needed */
+    -fx-text-fill: #181717; /* Example text color, adjust as needed */
+    -fx-font-weight: bold;
+}
+
+.box-button:hover {
+    -fx-background-color: #a4153b; /* Lighter background color on hover */
+    -fx-text-fill: #ffffff;
+}
+.image-container {
+    -fx-padding: 2; /* Adjust based on the thickness of the border you want */
+    -fx-border-color: #c02626; /* Or any color you prefer */
+    -fx-border-width: 2; /* Adjust the border thickness */
+    -fx-border-radius: 50%; /* Essential for circular border */
+    -fx-background-radius: 50%; /* To ensure the background, if any, is also rounded */
+}
+.settings-button {
+    -fx-font-size: 25px; /* Increased icon size */
+}
+
+.settings-button:hover {
+    -fx-background-color: lightgray; /* Hover effect */
+}
+.logout-button {
+    -fx-font-size: 24px; /* Adjust size as needed */
+}
+
+.logout-button:hover {
+    -fx-background-color: lightgray; /* Hover effect */
+}
+
+.button-object {
+    -fx-background-image: url('resources/25.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Button with furniture background */
+.button-furniture {
+    -fx-background-image: url('resources/v.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.nav-button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+}
+
+.nav-button:hover {
+    -fx-background-color: #0053A6;
+}
+
+ #vision-title, #mission-title, #contact-title {
+     -fx-font-size: 20px;
+     -fx-font-weight: bold;
+     -fx-text-fill: #0000f8;
+}
+
+#vision-text, #mission-text, #contact-info {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fff;
+    -fx-padding: 10 0;
+}
+#about-title{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #efeff3;
+}
+
