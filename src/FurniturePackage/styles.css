@@ -1,0 +1,41 @@
+.root {
+    -fx-background-image: url('/resources/4K.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.button {
+    -fx-background-color: #3498db; /* A pleasant blue for buttons */
+    -fx-text-fill: #ecf0f1; /* Light grey text color for contrast */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-min-width: 120px; /* Minimum width */
+    -fx-min-height: 40px; /* Minimum height */
+    -fx-max-width: 160px; /* Maximum width (optional if you want fixed size) */
+    -fx-max-height: 40px; /* Maximum height (optional if you want fixed size) */
+}
+
+#backButton{
+    -fx-background-color: #7a34db; /* A pleasant blue for buttons */
+    -fx-text-fill: #ecf0f1;
+}
+
+
+.label {
+    -fx-text-fill: #ecf0f1; /* Light grey text for labels */
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-padding:  60;
+
+}
+
+.scene {
+    -fx-background-color: #34495e; /* A slightly different shade for scene backgrounds */
+}
+
+/* Additional styles can be added as needed */

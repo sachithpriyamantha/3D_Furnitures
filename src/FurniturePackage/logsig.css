@@ -1,0 +1,35 @@
+.root {
+    -fx-background-image: url('/resources/wood1.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#dashboard-title {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-weight: bold;
+}
+
+#feedback-label, #toggle-button {
+    -fx-text-fill: #bdc3c7;
+}
+
+.dashboard-button, #toggle-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.dashboard-button:hover, #toggle-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.text-field {
+    -fx-max-width: 250px;
+    -fx-font-size: 12pt;
+    -fx-padding: 10;
+}

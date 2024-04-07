@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="FurniturePackage.FurniturePageController" stylesheets="@/FurniturePackage/styles.css">
+
+    <Label text="View 2D Furnitures" styleClass="label"/>
+
+    <Button text="Chair" onAction="#onViewChair"/>
+    <Button text="Bed" onAction="#onViewBed"/>
+    <Button text="Cupboard" onAction="#onViewCupboard"/>
+    <Button text="Table" onAction="#onViewTable"/>
+    <Button text="Rack" onAction="#onViewRack"/>
+    <Button text="Bench" onAction="#onViewBench"/>
+    <Button text="Door" onAction="#onViewDoor"/>
+    <Button text="BookShelf" onAction="#onViewBookshelf"/>
+
+    <Button fx:id="backButton" text="Back" onAction="#onBack"/>
+
+</VBox>

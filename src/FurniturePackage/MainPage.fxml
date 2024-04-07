@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="FurniturePackage.MainPageController" stylesheets="@/FurniturePackage/styles.css">
+    <Button text="View 2D Objects" fx:id="view2DButton" onAction="#onView2D" styleClass="button"/>
+    <Button text="View 3D Objects" fx:id="view3DButton" onAction="#onView3D" styleClass="button"/>
+    <Button fx:id="backButton" text="Back" onAction="#onBack"/>
+
+</VBox>
