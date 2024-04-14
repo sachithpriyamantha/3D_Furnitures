@@ -10,6 +10,11 @@ import javafx.stage.Stage;
 
 public class Bench2D extends Application {
 
+
+
+
+
+    
     // Assume window size of 1550x800 for centering, matching Chair2D settings
     private static final int WINDOW_WIDTH = 1550;
     private static final int WINDOW_HEIGHT = 800;
