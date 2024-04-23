@@ -14,6 +14,8 @@ public class Bed2D extends Application {
     private static final int WINDOW_WIDTH = 1550;
     private static final int WINDOW_HEIGHT = 800;
 
+
+    
     @Override
     public void start(Stage primaryStage) {
         Group root = createBedView();
@@ -25,6 +27,8 @@ public class Bed2D extends Application {
         primaryStage.show();
     }
 
+
+    //imges
     public static Group createBedView() {
         Image woodImage = new Image(Bed2D.class.getResourceAsStream("/resources/wood.jpg"));
         ImagePattern woodPattern = new ImagePattern(woodImage);
