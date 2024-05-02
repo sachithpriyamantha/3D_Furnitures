@@ -8,6 +8,9 @@ import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
+
+
+// bench 2D
 public class Bench2D extends Application {
 
 
