@@ -10,6 +10,9 @@ import javafx.stage.Stage;
 
 public class Rack2D extends Application {
 
+
+
+    
     private static final int WIDTH = 1550;
     private static final int HEIGHT = 800;
 
