@@ -88,7 +88,7 @@ We welcome contributions to FurniMaker! If you have suggestions or bug reports, 
 FurniMaker is released under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-For support or queries, please email us at support@FurniMaker.com
+For support or queries, please email us at support@3dFurniMaker.com
 
 
 
